@@ -11,9 +11,41 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="style.css"> -->
     <title>BootStrap Web</title>
+<style>
 
+  .grey {
+    color: grey;
+  }
+  
+  .bisque {
+    background-color: rgb(225, 255, 196);
+  }
+  
+  .lightblue{
+    background-color: rgb(215, 240, 250);
+  }
+  
+  .khaki{
+  background-color: rgb(253, 245, 175);
+  }
+  
+  .nav-bg{
+    background-color: #00457E;
+  }
+  
+  li{
+    display: block;
+  }
+  
+  li:hover{
+  background-color: #2F70AF;
+  border-radius: 0.5em;
+  color: #000;
+  }
+  
+  </style>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   </head>
 
@@ -34,12 +66,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
-        <ul id ="ul"class="navbar-nav me-auto mb-1 mb-lg-0">
+        <ul id ="ul"class="navbar-nav me-auto mb-1 mb-lg-0 ">
           <li class="nav-item">
             <a
               class="nav-link active text-light active"
               aria-current="page"
-              href="index.html"
+              href="#"
             >
               Home
             </a>
@@ -50,7 +82,15 @@
           <li class="nav-item">
             <a class="nav-link text-light" href="#">Contact Us</a>
           </li>
-        </ul>
+          <li class="nav-item">
+            <a class="nav-link text-light" href="light.html">Projects</a>
+          </li>
+          </ul>
+          
+          <li class="nav-item navbar-nav  mb-1 mb-lg-0">
+            <a class="nav-link text-light float-end"  href="login.html">Login / SignUp</a>
+          </li>
+    
         <!-- <span class="navbar-text text-light d-md-none d-lg-flex d-sm-none">
           Let's learn together
         </span> -->
@@ -125,12 +165,12 @@
           </div>
         </div>
       </div>
-
-      <div class="row container-fluid align-content-center mt-3 " data-aos="fade-right">
-        <h3 class="ms-3  border-start border-3 border-danger">
-          Courses
-        </h3>
-        <div class="mt-2 col-sm-10 col-md-8 col-lg-3 ">
+      <h3 class="ms-3  border-start border-3 border-danger">
+        Courses
+      </h3>
+      <div class="row container-fluid  align-content-center mt-3 justify-content-center" data-aos="fade-right">
+       
+        <div class="mt-2 col-sm-10  col-md-8 col-lg-3  ">
           <div class="col card lightblue carousel-inner">
             <img
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTrpeNk-Wsy94O2rfIEwDkdx8upL7ir0CD4gtfKtwCEmiZmZYfLXrUgjlfx9ig-EM-nSd4&usqp=CAU"
@@ -291,7 +331,11 @@
     <script>
         AOS.init();
     </script>
-<script src="./script.js"> 
+<script > 
+
+function myFunction() {
+    alert("Under Development");
+}
 
 </script>
     <script
